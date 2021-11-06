@@ -1,0 +1,135 @@
+{
+  "Header": {
+    "title": "Your Home, Our Destiny",
+    "paragraph": "Its Comfort First, Comfort last, Comfort Always"
+  },
+  "About": {
+    "paragraph": "We are Konark Interiors started in the year 2000 and have network in all over Hyderabad for our work in the field of interiors, we have delivered successful home interiors to our 1000 of clients and have received valuable feedback from them, we are looking forward to incarnate our work in your magic homes",
+    "Why": [
+      "We deliver Good Quality materials",
+      "We understand you",
+      "Trained labours",
+      "We Fix your issues"
+    ],
+    "Why2": [
+      "Top class furnitures",
+      "Falls Ceiling included",
+      "We offer you less cost",
+      "We have a common goal"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Hall",
+      "largeImage": "img/portfolio/01-large.jpeg",
+      "smallImage": "img/portfolio/01-small.jpeg"
+    },
+    {
+      "title": "Table",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Kitchen",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Bedroom",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Dining",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Crockery",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Sofa",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Dressing Unit",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Study Area",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-building",
+      "name": "Interiors"
+    },
+    {
+      "icon": "fa fa-building",
+      "name": "Falls Ceiling"
+    },
+    {
+      "icon": "fa fa-building",
+      "name": "Furnitures"
+    },
+    {
+      "icon": "fa fa-building",
+      "name": "Fixing your Home issues"
+    },
+    {
+      "icon": "fa fa-building",
+      "name": "Quotation on your hands"
+    },
+    {
+      "icon": "fa fa-building",
+      "name": "Designing with you"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/hitech.jpg",
+      "name": "Hitech City"
+    },
+    {
+      "img": "img/testimonials/gachibowli.jpg",
+      "name": "Gachibowli"
+    },
+    {
+      "img": "img/testimonials/malaysian.jpg",
+      "name": "Malaysian Township"
+    }
+  ],
+  "Contact": {
+    "address": "Konark Interiors, Pt no 631/Part, Subash Nagar, Jeedimetla, Hyderabad, 500055",
+    "phone": "+919849321780",
+    "email": "konarkinterior1@gmail.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-bed",
+      "title": "Bedroom",
+      "text": "Make your Bedroom, a place of dreams"
+    },
+    {
+      "icon": "fa fa-h-square",
+      "title": "Hall",
+      "text": "Your Hall is should be a place of wonderland"
+    },
+    {
+      "icon": "fa fa-cutlery",
+      "title": "Kitchen",
+      "text": "Cutting vegetables are not boring anymore"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "False Ceiling",
+      "text": "Why only the floors should have all the fun"
+    }
+  ]
+}
