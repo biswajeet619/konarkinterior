@@ -26,13 +26,14 @@ export const Contact = (props) => {
         (result) => {
           console.log(result.text)
           window.alert("message sent")
+          e.target.reset();
           clearState()
         },
         (error) => {
           console.log(error.text)
         }
       )
-      e.target.reset();
+      
   }
   return (
     <div>
@@ -82,7 +83,7 @@ export const Contact = (props) => {
                   <div className='col-md-6'>
                     <div className='form-group'>
                       <input
-                        type='phone'
+                        type='tel'
                         id='phone'
                         name='phone'
                         className='form-control'
