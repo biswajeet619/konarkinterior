@@ -7,7 +7,7 @@ const initialState = {
   message: '',
 }
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [{ name, email, message, phone }, setState] = useState(initialState)
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -17,20 +17,22 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
+    console.log(name, email, message, phone)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_efjqelt', 'template_0mg13vb', e.target, 'YOUR_USER_ID'
       )
       .then(
         (result) => {
           console.log(result.text)
+          window.alert("message sent")
           clearState()
         },
         (error) => {
           console.log(error.text)
         }
       )
+      e.target.reset();
   }
   return (
     <div>
@@ -69,6 +71,22 @@ export const Contact = (props) => {
                         name='email'
                         className='form-control'
                         placeholder='Email'
+                        required
+                        onChange={handleChange}
+                      />
+                      
+                      <p className='help-block text-danger'></p>
+                    </div>
+                  </div>
+
+                  <div className='col-md-6'>
+                    <div className='form-group'>
+                      <input
+                        type='phone'
+                        id='phone'
+                        name='phone'
+                        className='form-control'
+                        placeholder='Phone number'
                         required
                         onChange={handleChange}
                       />
