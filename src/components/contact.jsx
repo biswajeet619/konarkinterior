@@ -20,19 +20,19 @@ export const Contact = (props) => {
     console.log(name, email, message, phone)
     emailjs
       .sendForm(
-        'service_efjqelt', 'template_0mg13vb', e.target, 'YOUR_USER_ID'
+        'service_efjqelt', 'template_0mg13vb', e.target, 'user_xKbfXLflHrL30i8l8Te02'
       )
       .then(
         (result) => {
           console.log(result.text)
           window.alert("message sent")
-          e.target.reset();
           clearState()
         },
         (error) => {
           console.log(error.text)
         }
       )
+      e.target.reset();
       
   }
   return (
@@ -83,9 +83,10 @@ export const Contact = (props) => {
                   <div className='col-md-6'>
                     <div className='form-group'>
                       <input
-                        type='tel'
+                        type='text'
                         id='phone'
                         name='phone'
+                        pattern="[789][0-9]{9}"
                         className='form-control'
                         placeholder='Phone number'
                         required
