@@ -83,7 +83,7 @@ export const Contact = (props) => {
                   <div className='col-md-6'>
                     <div className='form-group'>
                       <input
-                        type='tel'
+                        type='number'
                         id='phone'
                         name='phone'
                         className='form-control'
